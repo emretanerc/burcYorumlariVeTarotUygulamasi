@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/burcyorumu"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/_5sdp"
+                android:layout_weight="5"
+                android:clickable="false"
+                android:fontFamily="@font/acme"
+                android:lineSpacingExtra="@dimen/_6sdp"
+                android:text="Yükleniyor...."
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="@dimen/_14sdp"
+                android:textStyle="bold" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/action"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center|right"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:layout_weight="5"
+                android:clickable="true"
+                app:backgroundTint="#FFFFFF"
+                app:srcCompat="?attr/actionModeShareDrawable" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

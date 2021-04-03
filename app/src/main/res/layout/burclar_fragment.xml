@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/kocLy"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/_2sdp"
+            android:layout_weight="1"
+            android:background="#2DFFFFFF"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/kocBt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/burcarkaplan"
+                android:clickable="false"
+                android:scaleType="center"
+                android:src="@drawable/koc" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="5"
+                android:clickable="false"
+                android:fontFamily="@font/atomic_age"
+                android:gravity="center"
+                android:text="Koç"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/bogaLy"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/_2sdp"
+            android:layout_weight="1"
+            android:background="#2DFFFFFF"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/bogaBt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/burcarkaplan"
+                android:clickable="false"
+                android:scaleType="center"
+                android:src="@drawable/boga" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="4.5"
+                android:clickable="false"
+                android:fontFamily="@font/atomic_age"
+                android:gravity="center"
+                android:text="Boğa"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ikizlerLy"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/_2sdp"
+            android:layout_weight="1"
+            android:background="#2DFFFFFF"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/ikizlerBt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/burcarkaplan"
+                android:clickable="false"
+                android:scaleType="center"
+                android:src="@drawable/ikizler" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="4.5"
+                android:clickable="false"
+                android:fontFamily="@font/atomic_age"
+                android:gravity="center"
+                android:text="İkizler"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/yengecLy"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/_2sdp"
+            android:layout_weight="1"
+            android:background="#2DFFFFFF"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/yengecBt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/burcarkaplan"
+                android:clickable="false"
+                android:scaleType="center"
+                android:src="@drawable/yengec" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="4.5"
+                android:clickable="false"
+                android:fontFamily="@font/atomic_age"
+                android:gravity="center"
+                android:text="Yengeç"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/aslanLy"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/_2sdp"
+            android:layout_weight="1"
+            android:background="#2DFFFFFF"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/aslanBt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/burcarkaplan"
+                android:clickable="false"
+                android:scaleType="center"
+                android:src="@drawable/aslan" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="4.5"
+                android:clickable="false"
+                android:fontFamily="@font/atomic_age"
+                android:gravity="center"
+                android:text="Aslan"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/basakLy"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/_2sdp"
+            android:layout_weight="1"
+            android:background="#2DFFFFFF"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/basakBt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/burcarkaplan"
+                android:clickable="false"
+                android:scaleType="center"
+                android:src="@drawable/basak" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="4.5"
+                android:clickable="false"
+                android:fontFamily="@font/atomic_age"
+                android:gravity="center"
+                android:text="Başak"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/teraziLy"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/_2sdp"
+            android:layout_weight="1"
+            android:background="#2DFFFFFF"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/kocBt3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/burcarkaplan"
+                android:clickable="false"
+                android:scaleType="center"
+                android:src="@drawable/terazi" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="4.5"
+                android:clickable="false"
+                android:fontFamily="@font/atomic_age"
+                android:gravity="center"
+                android:text="Terazi"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/akrepLy"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/_2sdp"
+            android:layout_weight="1"
+            android:background="#2DFFFFFF"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/bogaBt3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/burcarkaplan"
+                android:clickable="false"
+                android:scaleType="center"
+                android:src="@drawable/akrep" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="4.5"
+                android:clickable="false"
+                android:fontFamily="@font/atomic_age"
+                android:gravity="center"
+                android:text="Akrep"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/yayLy"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/_2sdp"
+            android:layout_weight="1"
+            android:background="#2DFFFFFF"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/ikizlerBt3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/burcarkaplan"
+                android:clickable="false"
+                android:scaleType="center"
+                android:src="@drawable/yay" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="4.5"
+                android:clickable="false"
+                android:fontFamily="@font/atomic_age"
+                android:gravity="center"
+                android:text="Yay"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/oglakLy"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/_2sdp"
+            android:layout_weight="1"
+            android:background="#2DFFFFFF"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/kocBt4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/burcarkaplan"
+                android:clickable="false"
+                android:scaleType="center"
+                android:src="@drawable/oglak" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="4.5"
+                android:clickable="false"
+                android:fontFamily="@font/atomic_age"
+                android:gravity="center"
+                android:text="Oğlak"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/kovaLy"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/_2sdp"
+            android:layout_weight="1"
+            android:background="#2DFFFFFF"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/bogaBt4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/burcarkaplan"
+                android:clickable="false"
+                android:scaleType="center"
+                android:src="@drawable/kova" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="4.5"
+                android:clickable="false"
+                android:fontFamily="@font/atomic_age"
+                android:gravity="center"
+                android:text="Kova"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/balikLy"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/_2sdp"
+            android:layout_weight="1"
+            android:background="#2DFFFFFF"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/ikizlerBt4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/burcarkaplan"
+                android:clickable="false"
+                android:scaleType="center"
+                android:src="@drawable/balik" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="4.5"
+                android:clickable="false"
+                android:fontFamily="@font/atomic_age"
+                android:gravity="center"
+                android:text="Balık"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>

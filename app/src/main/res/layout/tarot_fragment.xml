@@ -1,0 +1,1358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/tarotKarti"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:clickable="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/sonucLy"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/sonucTxtValue"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="0.50"
+                    android:fontFamily="@font/acme"
+                    android:gravity="center"
+                    android:text="Seçtiğin Kart "
+                    android:textColor="#FFFFFF"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    />
+
+                <TextView
+                    android:id="@+id/kartAnlami"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/acme"
+                    android:gravity="center"
+                    android:lineSpacingExtra="10sp"
+                    android:text="Seçtiğin Kart "
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/tarotLy"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <TextView
+                    android:id="@+id/burcTarihleriTxt2"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/acme"
+                    android:gravity="center"
+                    android:text="Lütfen 1 adet Tarot Kartı seç."
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:visibility="visible" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/imageButton51"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:clickable="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kartbg" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton52"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:clickable="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kartbg" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton53"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:clickable="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kartbg" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton54"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:clickable="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kartbg" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton55"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:clickable="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kartbg" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/imageButton48"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:clickable="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kartbg" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton49"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:clickable="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kartbg" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton50"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:clickable="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kartbg" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton46"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:clickable="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kartbg" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton47"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:clickable="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kartbg" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:clickable="false"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/imageButton41"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:clickable="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kartbg" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton42"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:clickable="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kartbg" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton43"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:clickable="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kartbg" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton44"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:clickable="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kartbg" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton45"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:clickable="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kartbg" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:clickable="false"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/imageButton36"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:clickable="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kartbg" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton37"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:clickable="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kartbg" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton38"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:clickable="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kartbg" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton39"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:clickable="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kartbg" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton40"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:clickable="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kartbg" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:clickable="false"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/imageButton31"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:clickable="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kartbg" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton32"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:clickable="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kartbg" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton33"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:clickable="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kartbg" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton34"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:clickable="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kartbg" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton35"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:clickable="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kartbg" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:clickable="false"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/imageButton26"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:clickable="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kartbg" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton27"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:clickable="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kartbg" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton28"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:clickable="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kartbg" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton29"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:clickable="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kartbg" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton30"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:clickable="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kartbg" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:clickable="false"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/imageButton21"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:clickable="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kartbg" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton22"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:clickable="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kartbg" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton23"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:clickable="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kartbg" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton24"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:clickable="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kartbg" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton25"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:clickable="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kartbg" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:clickable="false"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/imageButton16"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:clickable="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kartbg" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton17"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:clickable="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kartbg" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton18"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:clickable="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kartbg" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton19"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:clickable="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kartbg" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton20"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:clickable="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kartbg" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:clickable="false"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/imageButton11"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:clickable="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kartbg" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton12"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:clickable="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kartbg" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton13"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:clickable="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kartbg" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton14"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:clickable="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kartbg" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton15"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:clickable="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kartbg" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:clickable="false"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/imageButton6"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:clickable="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kartbg" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton7"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:clickable="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kartbg" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton8"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:clickable="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kartbg" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton9"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:clickable="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kartbg" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton10"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:clickable="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kartbg" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:clickable="false"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/imageButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:clickable="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kartbg" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton2"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:clickable="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kartbg" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton3"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:clickable="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kartbg" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton4"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:clickable="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kartbg" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton5"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:clickable="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kartbg" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/imageButton51"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:clickable="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kartbg" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton52"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:clickable="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kartbg" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton53"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:clickable="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kartbg" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton54"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:clickable="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kartbg" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton55"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:clickable="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kartbg" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/imageButton48"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:clickable="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kartbg" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton49"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:clickable="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kartbg" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton50"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:clickable="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kartbg" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton46"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:clickable="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kartbg" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton47"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:clickable="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kartbg" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:clickable="false"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/imageButton41"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:clickable="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kartbg" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton42"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:clickable="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kartbg" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton43"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:clickable="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kartbg" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton44"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:clickable="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kartbg" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton45"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:clickable="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kartbg" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:clickable="false"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/imageButton36"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:clickable="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kartbg" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton37"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:clickable="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kartbg" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton38"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:clickable="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kartbg" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton39"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:clickable="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kartbg" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton40"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:clickable="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kartbg" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:clickable="false"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/imageButton31"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:clickable="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kartbg" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton32"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:clickable="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kartbg" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton33"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:clickable="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kartbg" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton34"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:clickable="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kartbg" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton35"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:clickable="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kartbg" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:clickable="false"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/imageButton26"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:clickable="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kartbg" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton27"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:clickable="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kartbg" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton28"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:clickable="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kartbg" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton29"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:clickable="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kartbg" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton30"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:clickable="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kartbg" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:clickable="false"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/imageButton21"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:clickable="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kartbg" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton22"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:clickable="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kartbg" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton23"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:clickable="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kartbg" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton24"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:clickable="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kartbg" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton25"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:clickable="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kartbg" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:clickable="false"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/imageButton16"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:clickable="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kartbg" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton17"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:clickable="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kartbg" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton18"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:clickable="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kartbg" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton19"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:clickable="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kartbg" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton20"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:clickable="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kartbg" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:clickable="false"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/imageButton11"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:clickable="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kartbg" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton12"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:clickable="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kartbg" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton13"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:clickable="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kartbg" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton14"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:clickable="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kartbg" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton15"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:clickable="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kartbg" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:clickable="false"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/imageButton6"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:clickable="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kartbg" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton7"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:clickable="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kartbg" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton8"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:clickable="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kartbg" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton9"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:clickable="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kartbg" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton10"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:clickable="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kartbg" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:clickable="false"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/imageButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:clickable="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kartbg" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton2"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:clickable="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kartbg" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton3"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:clickable="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kartbg" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton4"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:clickable="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kartbg" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton5"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:clickable="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/kartbg" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+</ScrollView>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
