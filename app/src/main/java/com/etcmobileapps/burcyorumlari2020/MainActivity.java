@@ -10,6 +10,7 @@ import com.etcmobileapps.burcyorumlari2020.Fragments.Burclar;
 import com.etcmobileapps.burcyorumlari2020.Fragments.NameUyum;
 import com.etcmobileapps.burcyorumlari2020.Fragments.TarotFal;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
+import com.onesignal.OneSignal;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -23,6 +24,8 @@ import androidx.navigation.ui.NavigationUI;
 
 public class MainActivity extends AppCompatActivity {
     FrameLayout fragmentLayout;
+    private static final String ONESIGNAL_APP_ID = "338b2830-d3d7-4cbd-806c-6f7a799cca16";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         requestWindowFeature(Window.FEATURE_NO_TITLE);
@@ -31,6 +34,12 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
+        OneSignal.setLogLevel(OneSignal.LOG_LEVEL.VERBOSE, OneSignal.LOG_LEVEL.NONE);
+
+        // OneSignal Initialization
+        OneSignal.initWithContext(this);
+        OneSignal.setAppId(ONESIGNAL_APP_ID);
 
         fragmentLayout = findViewById(R.id.fragmentLayout);
 
