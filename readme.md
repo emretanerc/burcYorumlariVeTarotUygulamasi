@@ -4,6 +4,8 @@
 
 ![](unnamed.jpg)
 
+<img src="https://github.com/emretanerc/burcyorumlari/raw/master/unnamed.jpg" width="250" height="500">
+
 Teknik Özellikler
 -Retrofit ile apiden bilgi çekilmesi
 -Onesignal
