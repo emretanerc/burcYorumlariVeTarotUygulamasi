@@ -21,6 +21,8 @@ Uygulama Özellikleri
 
 
 
+  - ![](https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png =250x250)
+  
 
 
 <a href="[https://play.google.com/store/apps/details?id=com.etcmobileapps.dogruyubulkelimeoyunu](https://play.google.com/store/apps/details?id=com.etcmobileapps.burcyorumlari2020)" target="_blank"><img align="center" src="https://img.shields.io/badge/Google_Play-414141?style=for-the-badge&logo=google-play&logoColor=white" alt="Burç Yorumları" /></a>
