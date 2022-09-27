@@ -16,13 +16,14 @@ Uygulama Özellikleri
 - Rastgele bir kartın seçilmesi ve anlamının çıkması
 
 
-![]https://play-lh.googleusercontent.com/E7YM0NMBOQvOv7ar9qH4oTBhb6veLi0ylvONnVPQyTC9JEFLSJgiAbVWRSzQWxOF-9l2=w5120-h2880 =500x1000)
 
-<img align="center" witdh="100", src="https://play-lh.googleusercontent.com/E7YM0NMBOQvOv7ar9qH4oTBhb6veLi0ylvONnVPQyTC9JEFLSJgiAbVWRSzQWxOF-9l2=w5120-h2880" alt="Doğruyu Bul Play Store " />
-
+<img src="[https://play-lh.googleusercontent.com/E7YM0NMBOQvOv7ar9qH4oTBhb6veLi0ylvONnVPQyTC9JEFLSJgiAbVWRSzQWxOF-9l2=w5120-h2880](https://play-lh.googleusercontent.com/E7YM0NMBOQvOv7ar9qH4oTBhb6veLi0ylvONnVPQyTC9JEFLSJgiAbVWRSzQWxOF-9l2=w5120-h2880)" width="200" height="400" />
 
 
-<a href="[https://play.google.com/store/apps/details?id=com.etcmobileapps.dogruyubulkelimeoyunu](https://play.google.com/store/apps/details?id=com.etcmobileapps.burcyorumlari2020)" target="_blank"><img align="center" src="https://img.shields.io/badge/Google_Play-414141?style=for-the-badge&logo=google-play&logoColor=white" alt="Doğruyu Bul Play Store " /></a>
+
+
+
+<a href="[https://play.google.com/store/apps/details?id=com.etcmobileapps.dogruyubulkelimeoyunu](https://play.google.com/store/apps/details?id=com.etcmobileapps.burcyorumlari2020)" target="_blank"><img align="center" src="https://img.shields.io/badge/Google_Play-414141?style=for-the-badge&logo=google-play&logoColor=white" alt="Burç Yorumları" /></a>
 </p>
 
 
