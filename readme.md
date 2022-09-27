@@ -17,7 +17,7 @@ Uygulama Özellikleri
 
 
 
-<img src="[https://play-lh.googleusercontent.com/E7YM0NMBOQvOv7ar9qH4oTBhb6veLi0ylvONnVPQyTC9JEFLSJgiAbVWRSzQWxOF-9l2=w5120-h2880](https://play-lh.googleusercontent.com/E7YM0NMBOQvOv7ar9qH4oTBhb6veLi0ylvONnVPQyTC9JEFLSJgiAbVWRSzQWxOF-9l2=w5120-h2880)" width="200" height="400" />
+<img src="[https://play-lh.googleusercontent.com/E7YM0NMBOQvOv7ar9qH4oTBhb6veLi0ylvONnVPQyTC9JEFLSJgiAbVWRSzQWxOF-9l2=w5120-h2880]" width="200" height="400" />
 
 
 
