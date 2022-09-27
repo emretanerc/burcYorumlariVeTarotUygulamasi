@@ -2,7 +2,6 @@
 # Günlük,Haftalık,Aylık Burç Yorumları ve Tarot Kartları
 
 
-![](unnamed.jpg)
 
 <img src="https://github.com/emretanerc/burcyorumlari/raw/master/unnamed.jpg" width="250" height="500">
 
