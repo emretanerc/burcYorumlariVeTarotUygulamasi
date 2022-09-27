@@ -15,13 +15,12 @@ Uygulama Özellikleri
 - Burçlar Hakkında Doğum Tarihleri, Davranışları 
 - Rastgele bir kartın seçilmesi ve anlamının çıkması
 
+![Ekran Görüntüsü]([http://url/to/img.png](https://play-lh.googleusercontent.com/E7YM0NMBOQvOv7ar9qH4oTBhb6veLi0ylvONnVPQyTC9JEFLSJgiAbVWRSzQWxOF-9l2=w5120-h2880))
 
 
-<img src="[https://play-lh.googleusercontent.com/E7YM0NMBOQvOv7ar9qH4oTBhb6veLi0ylvONnVPQyTC9JEFLSJgiAbVWRSzQWxOF-9l2=w5120-h2880]" width="200" height="400" />
 
 
 
-  - ![](https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png =250x250)
   
 
 
